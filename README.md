@@ -1,5 +1,7 @@
 # Cirrhosis Prediction Using Neural Networks
 
+<img src="https://www.startstemcells.com/wp-content/uploads/2024/07/liver-2.jpg" height="300" alt="cirrhosis stages">
+
 ## Project Overview
 
 This project aims to develop a predictive model to classify cirrhosis into three
