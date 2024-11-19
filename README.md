@@ -4,9 +4,10 @@
 
 ## Project Overview
 
-This project aims to develop a predictive model to classify cirrhosis into three
-categories using a neural network built with PyTorch. By using the
-[Cirrhosis Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/cirrhosis-prediction-dataset/data).
+In this project I have developed a predictive model to classify cirrhosis into four
+categories using a neural network built with PyTorch.
+
+I'm using the [Cirrhosis Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/cirrhosis-prediction-dataset/data).
 
 ## What is Cirrhosis?
 
@@ -16,22 +17,6 @@ liver damage from factors like alcohol abuse, hepatitis, and fatty liver
 disease, cirrhosis can progress to life-threatening complications if left
 untreated. Early detection and classification of cirrhosis stages are essential
 for timely intervention and management.
-
-## Dataset Information
-
-The dataset used in this project comes from Kaggle and includes medical records
-of patients with liver conditions. Key attributes in the dataset include:
-
-- **Age**: Age of the patient
-- **Gender**: Male or Female
-- **Bilirubin Levels**: A measure of liver function
-- **Albumin Levels**: Protein produced by the liver, indicative of liver health
-- **Ascites**: Presence of fluid in the abdomen, often associated with severe
-  liver disease
-- **Prothrombin**: Coagulation indicator, reflecting liver functionality
-
-Each record is labeled with a cirrhosis stage category, making this a multiclass
-classification task.
 
 ## Approach
 
@@ -43,3 +28,26 @@ classification task.
 - **Comparison**: The performance of the handwritten model will be compared
   against the PyTorch implementation to evaluate accuracy, efficiency, and
   computational complexity.
+
+## Files
+
+### Neural Network using Pytorch
+
+- [Neural Network with Gradient Descent](./cirrhosis_prediction_pytorch_gd.ipynb)
+- [Neural Network with Stochastic Gradient Descent](./cirrhosis_prediction_pytorch_batch_sgd.ipynb)
+- [Neural Network with Stochastic Gradient Descent and Dropout Layers](./cirrhosis_prediction_pytorch_sgd_and_dropout.ipynb)
+
+#### Plots for Neural Network with Gradient Descent
+
+![Accuracy Plot](./readme_content/accuracy_1.png)
+![Loss Plot](./readme_content/loss_1.png)
+
+#### Plots for Neural Network with Stochastic Gradient Descent
+
+![Accuracy Plot](./readme_content/accuracy_2.png)
+![Loss Plot](./readme_content/loss_2.png)
+
+#### Plots for Neural Network with Stochastic Gradient Descent and Dropout Layers
+
+![Accuracy Plot](./readme_content/accuracy_3.png)
+![Loss Plot](./readme_content/loss_3.png)
