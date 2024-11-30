@@ -31,6 +31,11 @@ for timely intervention and management.
 
 ## Files
 
+### Random Forest
+
+- [Random Forest with 275 estimators](./random_forest.ipynb)   
+=> accuracy = 44%
+
 ### Neural Network using Pytorch
 
 - [Neural Network with Gradient Descent](./cirrhosis_prediction_pytorch_gd.ipynb)
