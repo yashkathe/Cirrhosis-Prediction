@@ -47,7 +47,7 @@ for timely intervention.
 
 ### Neural Network From Scratch
 
-[Shallow Neural Network using Numpy only](./from_scratch_neural_network.ipynb)
+[Shallow Neural Network using Numpy only](./from_scratch_neural_network.ipynb) => accuracy = 56%
 
 This file includes complete data preprocessing
 
@@ -57,3 +57,5 @@ This file includes complete data preprocessing
 4. Handle Outliers
 5. Normalizing the data
 6. OverSampling with SMOTE
+
+![plot for on scratch neural network](./readme_content/from_scratch_plot.png)
