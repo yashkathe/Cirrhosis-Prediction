@@ -19,10 +19,20 @@ for timely intervention.
 
 ## Files
 
-### Random Forest
+### Neural Network From Scratch
 
-- [Random Forest with 275 estimators](./random_forest.ipynb)
-=> accuracy = 44%
+[Shallow Neural Network using Numpy only](./from_scratch_neural_network.ipynb) => accuracy = 56%
+
+This file includes complete data preprocessing
+
+1. Drop columns with excessive missing values
+2. Fill rows with missing values
+3. Data Mapping
+4. Handle Outliers
+5. Normalizing the data
+6. OverSampling with SMOTE
+
+![plot for on scratch neural network](./readme_content/from_scratch_plot.png)
 
 ### Neural Network using Pytorch
 
@@ -45,17 +55,7 @@ for timely intervention.
 ![Accuracy Plot](./readme_content/accuracy_3.png)
 ![Loss Plot](./readme_content/loss_3.png)
 
-### Neural Network From Scratch
+### Random Forest
 
-[Shallow Neural Network using Numpy only](./from_scratch_neural_network.ipynb) => accuracy = 56%
-
-This file includes complete data preprocessing
-
-1. Drop columns with excessive missing values
-2. Fill rows with missing values
-3. Data Mapping
-4. Handle Outliers
-5. Normalizing the data
-6. OverSampling with SMOTE
-
-![plot for on scratch neural network](./readme_content/from_scratch_plot.png)
+- [Random Forest with 275 estimators](./random_forest.ipynb)
+=> accuracy = 44%
