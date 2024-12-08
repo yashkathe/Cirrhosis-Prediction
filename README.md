@@ -1,8 +1,8 @@
-# Cirrhosis Prediction Using Neural Networks
+# Cirrhosis Prediction
 
 ## Table of Content
 
-- [Cirrhosis Prediction Using Neural Networks](#cirrhosis-prediction-using-neural-networks)
+- [Cirrhosis Prediction](#cirrhosis-prediction)
   - [Table of Content](#table-of-content)
   - [Overview](#overview)
     - [What is Cirrhosis?](#what-is-cirrhosis)
