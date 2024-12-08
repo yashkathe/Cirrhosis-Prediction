@@ -11,6 +11,7 @@
     - [Neural Network using Pytorch](#neural-network-using-pytorch)
     - [Random Forest Implementation](#random-forest-implementation)
   - [Notes on how neural network works (from scratch)](#notes-on-how-neural-network-works-from-scratch)
+  - [Extra](#extra)
 
 ## Overview
 
@@ -51,7 +52,13 @@ The files for this section includes complete data preprocessing
 
 ![plot for on scratch neural network](./readme_content/from_scratch_plot.png)
 
-[Shallow Neural Network using Numpy only + Explicit Derivate Equations](./from_scratch_neural_network_2.ipynb)
+[Shallow Neural Network with update Hyperparameters](./from_scratch_neural_network_update_hparams.ipynb)  
+=> **accuracy = 66%**
+
+-> Updated Hyerparameters and also the size of hidden layer
+-> Broke down the backpropagation function into individual functions
+
+![plot for on scratch neural network with update hyperparameters](./readme_content/from_scracth_plot_2.png)
 
 ### Neural Network using Pytorch
 
@@ -76,4 +83,24 @@ The files for this section includes complete data preprocessing
 
 ## Notes on how neural network works (from scratch)
 
-notes from pdf will be attached here
+![Notes-Page-1](./readme_notes_for_nn_from_scratch/NOTES_page-0001.jpg)
+![Notes-Page-2](./readme_notes_for_nn_from_scratch/NOTES_page-0002.jpg)
+![Notes-Page-3](./readme_notes_for_nn_from_scratch/NOTES_page-0003.jpg)
+![Notes-Page-4](./readme_notes_for_nn_from_scratch/NOTES_page-0004.jpg)
+![Notes-Page-5](./readme_notes_for_nn_from_scratch/NOTES_page-0005.jpg)
+![Notes-Page-6](./readme_notes_for_nn_from_scratch/NOTES_page-0006.jpg)
+![Notes-Page-7](./readme_notes_for_nn_from_scratch/NOTES_page-0007.jpg)
+![Notes-Page-8](./readme_notes_for_nn_from_scratch/NOTES_page-0008.jpg)
+![Notes-Page-9](./readme_notes_for_nn_from_scratch/NOTES_page-0009.jpg)
+![Notes-Page-10](./readme_notes_for_nn_from_scratch/NOTES_page-0010.jpg)
+![Notes-Page-11](./readme_notes_for_nn_from_scratch/NOTES_page-0011.jpg)
+![Notes-Page-12](./readme_notes_for_nn_from_scratch/NOTES_page-0012.jpg)
+![Notes-Page-13](./readme_notes_for_nn_from_scratch/NOTES_page-0013.jpg)
+
+[Download the whole PDF](NOTES.pdf)
+
+## Extra
+
+Open an issue if there are any improvements or errors in code and notes.
+
+⭐ The repository if you like the notes and appraoch
